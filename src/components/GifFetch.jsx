@@ -11,7 +11,7 @@ class GifFetch extends Component {
   };
 
   componentDidMount(props) {
-    this.doSearch(this.props.term);
+    this.doSearch("food");
   }
 
   componentWillReceiveProps(nextProps) {
@@ -20,7 +20,7 @@ class GifFetch extends Component {
     }
   }
 
-  doSearch = (term = "food") => {
+  doSearch = term => {
     axios
       .get(
         `http://api.giphy.com/v1/gifs/search?q=${term}&limit=24&api_key=dc6zaTOxFJmzC`

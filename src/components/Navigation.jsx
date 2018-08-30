@@ -6,6 +6,9 @@ const Navigation = props => {
     <nav className="main-nav">
       <ul>
         <li>
+          <NavLink to="/search/search">Search</NavLink>
+        </li>
+        <li>
           <NavLink to="/search/cat">Cat</NavLink>
         </li>
         <li>

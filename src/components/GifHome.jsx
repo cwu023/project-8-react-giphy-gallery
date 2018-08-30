@@ -2,19 +2,19 @@ import React from "react";
 
 import GifFetch from "./GifFetch";
 import Navigation from "./Navigation";
-import Form from "./Form";
 
-const GifList = (props, { match }) => {
+const GifHome = (props, { match }) => {
   let term = props.match.params.term;
 
   return (
     <div>
-      <h1>React Giphy Gallery</h1>
-      <Form />
+      <h1>React Giyphy Gallery</h1>
+      <p>Click the search tab to begin searching for gifs.</p>
+      <p>Click other tabs for corresponding search results.</p>
       <Navigation />
       <GifFetch term={term} />
     </div>
   );
 };
 
-export default GifList;
+export default GifHome;

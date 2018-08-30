@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 
 class Form extends Component {
   state = {
@@ -13,7 +14,7 @@ class Form extends Component {
     e.preventDefault();
     e.currentTarget.reset();
     let searchWord = this.state.searchTerm;
-    let path = `search/${searchWord}`;
+    let path = `${searchWord}`;
     this.props.history.push(path);
   };
 
@@ -44,4 +45,4 @@ class Form extends Component {
   }
 }
 
-export default Form;
+export default withRouter(Form);
