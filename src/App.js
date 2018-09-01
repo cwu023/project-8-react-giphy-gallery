@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import GifList from "./components/GifList";
 import GifHome from "./components/GifHome";
@@ -9,7 +9,7 @@ import NoResult from "./components/NoResult";
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div className="container">
           <Switch>
             <Route exact path="/" component={GifHome} />
@@ -17,7 +17,7 @@ class App extends Component {
             <Route component={NoResult} />
           </Switch>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
