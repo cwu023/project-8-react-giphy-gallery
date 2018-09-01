@@ -9,7 +9,7 @@ import NoResult from "./components/NoResult";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/project-8-react-giphy-gallery">
         <div className="container">
           <Switch>
             <Route exact path="/" component={GifHome} />
