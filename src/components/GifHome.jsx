@@ -9,7 +9,9 @@ const GifHome = (props, { match }) => {
   return (
     <div>
       <h1>React Giyphy Gallery</h1>
-      <p>Click the search tab to begin searching for gifs.</p>
+      <p>
+        Click the <strong>Search Tab</strong> to begin searching for gifs.
+      </p>
       <p>Click other tabs for corresponding search results.</p>
       <Navigation />
       <GifFetch term={term} />

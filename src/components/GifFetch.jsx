@@ -11,7 +11,7 @@ class GifFetch extends Component {
   };
 
   componentDidMount(props) {
-    this.doSearch("food");
+    this.doSearch("happy");
   }
 
   componentWillReceiveProps(nextProps) {
