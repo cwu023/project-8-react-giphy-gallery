@@ -14,7 +14,7 @@ React.js
 
 AJAX
 
-Public API: "Giphy" url: https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC
+Public API: "Giphy" url: https://developers.giphy.com/
 
 Live Demo: https://cwu023.github.io/project-8-react-giphy-gallery/#/
 
