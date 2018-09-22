@@ -8,7 +8,7 @@ const GifHome = (props, { match }) => {
 
   return (
     <div>
-      <h1>React Giyphy Gallery</h1>
+      <h1>React Giphy Gallery</h1>
       <p>
         Click the <strong>Search Tab</strong> to begin searching for gifs.
       </p>
