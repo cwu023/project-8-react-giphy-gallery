@@ -1,7 +1,7 @@
 {
   "name": "project-8-react-giphy-gallery",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://cwu023.github.io/project-8-react-giphy-gallery",
   "dependencies": {
     "axios": "^0.18.0",
