@@ -1,11 +1,18 @@
 {
-  "main.css": "static/css/main.4066120a.css",
-  "main.css.map": "static/css/main.4066120a.css.map",
-  "main.js": "static/js/main.aa2d1d1b.js",
-  "main.js.map": "static/js/main.aa2d1d1b.js.map",
-  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
-  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
-  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
-  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff"
+  "files": {
+    "main.css": "/project-8-react-giphy-gallery/static/css/main.33850879.css",
+    "main.js": "/project-8-react-giphy-gallery/static/js/main.18cbc11d.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/project-8-react-giphy-gallery/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/project-8-react-giphy-gallery/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/project-8-react-giphy-gallery/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/project-8-react-giphy-gallery/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/project-8-react-giphy-gallery/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/project-8-react-giphy-gallery/index.html",
+    "main.33850879.css.map": "/project-8-react-giphy-gallery/static/css/main.33850879.css.map",
+    "main.18cbc11d.js.map": "/project-8-react-giphy-gallery/static/js/main.18cbc11d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33850879.css",
+    "static/js/main.18cbc11d.js"
+  ]
 }
