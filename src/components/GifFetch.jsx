@@ -23,7 +23,7 @@ class GifFetch extends Component {
   doSearch = term => {
     axios
       .get(
-        `https://api.giphy.com/v1/gifs/search?q=${term}&limit=24&api_key=dc6zaTOxFJmzC`
+        `https://api.giphy.com/v1/gifs/search?q=${term}&limit=24&api_key=bTpcZ8p8CmX4AQu3N8p7lr10WX2nIGRq`
       )
       .then(response => {
         this.setState({
